@@ -1,7 +1,10 @@
 {
-  "entrypoint": "app:app",
-  "port": 8080,
-  "runtime": "python3.10",
-  "install": "pip install -r requirements.txt",
-  "start": "uvicorn app:app --host 0.0.0.0 --port 8080"
+  "name": "pubg-name-api",
+  "version": "0.1",
+  "env": {
+    "PYTHONUNBUFFERED": "1"
+  },
+  "scripts": {
+    "start": "uvicorn main:app --host 0.0.0.0 --port 8000"
+  }
 }
