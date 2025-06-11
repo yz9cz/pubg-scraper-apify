@@ -1,0 +1,7 @@
+{
+  "name": "pubg-scraper",
+  "version": "0.1",
+  "build": "pip install -r requirements.txt",
+  "env": {},
+  "actorSpecification": 1
+}
