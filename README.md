@@ -1,9 +1,16 @@
-# PUBG Player Name Scraper using Apify & Playwright
+# PUBG Player Name Scraper API
 
-This Apify actor takes a PUBG Mobile player ID and scrapes the corresponding player name from the Midasbuy website using Playwright.
+API لاستخراج اسم لاعب PUBG من موقع Midasbuy باستخدام Web Scraping مع Selenium.
 
-## 🧪 Example Input
+## Endpoint
+
+### `GET /get_name?player_id=5443564406`
+
+- `player_id`: معرف لاعب PUBG (9-10 أرقام).
+- **الاستجابة:**
+
 ```json
 {
-  "player_id": "5443564406"
+  "player_id": "5443564406",
+  "name": "اسم اللاعب"
 }
