@@ -1,7 +1,7 @@
 {
-  "name": "pubg-scraper",
-  "version": "0.1",
-  "build": "pip install -r requirements.txt",
-  "env": {},
-  "actorSpecification": 1
+  "entrypoint": "app:app",
+  "port": 8080,
+  "runtime": "python3.10",
+  "install": "pip install -r requirements.txt",
+  "start": "uvicorn app:app --host 0.0.0.0 --port 8080"
 }
