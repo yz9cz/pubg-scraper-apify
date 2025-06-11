@@ -1,2 +1,3 @@
-apify
-playwright
+fastapi
+uvicorn
+selenium
